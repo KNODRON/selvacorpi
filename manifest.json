@@ -1,0 +1,10 @@
+{
+  "name": "SELVA CORPI",
+  "short_name": "SELVA CORPI",
+  "description": "Traductor familiar SELVA CORPI",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#163c2f",
+  "theme_color": "#163c2f",
+  "lang": "es"
+}
