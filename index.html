@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#163c2f" />
+
+  <title>SELVA CORPI</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
+</head>
+
+<body>
+
+  <main class="contenedor">
+
+    <header>
+      <h1>SELVA CORPI</h1>
+      <p>Traductor familiar</p>
+    </header>
+
+    <section class="tarjeta">
+
+      <label for="entrada">Texto original</label>
+
+      <textarea
+        id="entrada"
+        placeholder="Escribe aquí..."
+        autocomplete="off"
+        spellcheck="false"
+      ></textarea>
+
+      <div class="flecha">⇅</div>
+
+      <label for="salida">SELVA CORPI</label>
+
+      <textarea
+        id="salida"
+        placeholder="La traducción aparecerá aquí..."
+        autocomplete="off"
+        spellcheck="false"
+      ></textarea>
+
+      <div class="botones">
+        <button id="copiar">Copiar resultado</button>
+        <button id="limpiar" class="secundario">Limpiar</button>
+      </div>
+
+    </section>
+
+    <section class="clave">
+      <h2>Clave</h2>
+      <p>
+        S ↔ C &nbsp; · &nbsp;
+        E ↔ O &nbsp; · &nbsp;
+        L ↔ R &nbsp; · &nbsp;
+        V ↔ P &nbsp; · &nbsp;
+        A ↔ I
+      </p>
+    </section>
+
+    <footer>
+      Código familiar SELVA CORPI
+    </footer>
+
+  </main>
+
+  <div id="mensaje" class="mensaje"></div>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
